@@ -1,0 +1,24 @@
+body {
+    flex-direction: column;
+    gap: 4vmin;
+}
+.players {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmin;
+}
+.player, .new-game {
+    text-align: center;
+    border: solid 3px;
+    padding: 3vmin 6vmin;
+    background-color: var(--main-light-color);
+    box-shadow:
+    .5vmin .5vmin white inset,
+    .5vmin .5vmin var(--main-light-color);
+    font-size: 6vmin;
+    font-weight: bold;
+}
+.new-game {
+    cursor: pointer;
+    width: 50vmin;
+}

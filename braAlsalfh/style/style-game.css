@@ -1,0 +1,36 @@
+.page.game {
+    display: flex;
+    align-items: center;
+    gap: 10vmin;
+    flex-direction: column;
+}
+h2 {
+    position: relative;
+    font-size: 1.7em;
+}
+h2::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 150%;
+    height: 50%;
+    bottom: 0;
+    z-index: -1;
+    left: -25%;
+}
+.subjects {
+    display: flex;
+    gap: 10vmin;
+}
+.subject {
+    width: 50vmin;
+    height: 50vmin;
+    transition: 1s;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5vmin;
+    cursor: pointer;
+}

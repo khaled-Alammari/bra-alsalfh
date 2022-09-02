@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    --main-dark-color: rgb(231, 169, 9);
+    --main-light-color: rgb(255, 229, 182);
+    --second-dark-color: rgb(150, 205, 93);
+    --second-light-color: rgb(218, 240, 196);
+    --third-dark-color: rgb(228, 106, 106);
+    --third-light-color: rgb(255, 196, 196);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, var(--main-dark-color) 50%, rgb(255, 228, 138) 50%);
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
+    min-height: 100vh;
+    padding: 6vh 0;
+}

@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4vmin;
+    direction: rtl;
+}
+.questioner {    
+    font-size: 8vmin;
+    padding: 3vmin 6vmin;
+    background-color: var(--main-light-color);
+    border: solid;
+    box-shadow:
+    1vmin 1vmin inset white,
+    1vmin 1vmin var(--main-light-color);
+    border-radius: 1vmin;
+}
+.next {
+    font-size: 4vmin;
+    padding: 1.5vmin 3vmin;
+    background-color: var(--main-light-color);
+    border: solid;
+    box-shadow:
+    .5vmin .5vmin inset white,
+    .5vmin .5vmin var(--main-light-color);
+    font-weight: bold;
+    border-radius: 1vmin;
+    cursor: pointer;
+    width: fit-content;
+}

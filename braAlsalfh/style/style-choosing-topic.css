@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    gap: 6vmin;
+    font-size: 6vmin;
+    flex-direction: column;
+}
+.outPlayer, .topic {
+    padding: 3vmin 6vmin;
+    background-color: var(--main-light-color);
+    border: solid;
+    box-shadow:
+    .5vmin .5vmin white inset,
+    .5vmin .5vmin var(--main-light-color);
+}
+.topics {
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+}
+.topic {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    border: solid .5vmin;
+}
+.wrong {
+    color: var(--third-dark-color);
+    border: solid .5vmin var(--third-dark-color);
+    background-color: var(--third-light-color);
+    box-shadow:
+    .5vmin .5vmin white inset,
+    .5vmin .5vmin var(--third-light-color);
+}
+.right {
+    color: var(--second-dark-color);
+    border: solid .5vmin var(--second-dark-color);
+    background-color: var(--second-light-color);
+    box-shadow:
+    .5vmin .5vmin white inset,
+    .5vmin .5vmin var(--second-light-color);
+}

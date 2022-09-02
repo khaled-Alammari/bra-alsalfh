@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    gap: 6vmin;
+    font-size: 6vmin;
+    flex-direction: column;
+}
+.questioner, .player {
+    padding: 3vmin 6vmin;
+    background-color: var(--main-light-color);
+    border: solid;
+    box-shadow:
+    .5vmin .5vmin white inset,
+    .5vmin .5vmin var(--main-light-color);
+}
+.players {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+}
+.player {
+    cursor: pointer;
+    text-align: center;
+    border: solid 3px;
+}
